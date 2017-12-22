@@ -57,7 +57,7 @@ Luego de ejecutarlo el sistema nos pedirá confirmación de la operación.
 
 ## Autores
 
-* **Javier Caballero** - *Tecnical Director* - [Web Site](http://javiercaballero.info)
+* **Javier Caballero** - *Technical Director* - [Web Site](http://javiercaballero.info)
 
 Puedes ver la lista de [colaboradores](https://github.com/orgs/LabAuSegTIC/outside-collaborators) 
 
