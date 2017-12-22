@@ -13,14 +13,16 @@ La solución utilizando Docker para el despliegue simplifica mucho el manejo de 
 Dado que sólo se hará uso de un sólo servidor, los requisitos mínimos podrán ser un pocos elevados.
 
 ##### Requisitos Físicos Mínimos
+
 - `4 Gb RAM`
 - `Procesador de 2 nucleos`
 
 ##### Requisitos Físicos Recomendados
+
 - `8 Gb RAM`
 - `Procesador de 4 nucleos`
 
-#### Requisitos de Software
+#### Requisitos de Software
 
 - `Docker: ~> v17.06 `
 - `mysql-client: ~> 5.4`
