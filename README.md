@@ -14,17 +14,17 @@ Esta plataforma está compuesta por un ecosistema muy heterogeneo de subsistemas
 
  - [Instalación en un sólo servidor](/docs/one_server.md)
  
- ## Autores
+## Autores
  
- * **Javier Caballero** - *Technical Director* - [Web Site](http://javiercaballero.info)
+* **Javier Caballero** - *Technical Director* - [Web Site](http://javiercaballero.info)
  
- Puedes ver la lista de [colaboradores](https://github.com/orgs/LabAuSegTIC/outside-collaborators) 
+Puedes ver la lista de [colaboradores](https://github.com/orgs/LabAuSegTIC/outside-collaborators) 
  
- ## Licencia
+## Licencia
  
- La licencia de este proyecto es  GPL-3.0. Para más infomación puede leer el siguiente archivo  [LICENSE.md](https://github.com/LabAuSegTIC/InfrastructureDockerCompose/blob/master/LICENSE).
+La licencia de este proyecto es  GPL-3.0. Para más infomación puede leer el siguiente archivo  [LICENSE.md](https://github.com/LabAuSegTIC/InfrastructureDockerCompose/blob/master/LICENSE).
  
- ## Agradecimiento
+## Agradecimiento
  
  * Universidad Tecnológica Nacional - Facultad Regional Mendoza
  * Universidad del Aconcagua
