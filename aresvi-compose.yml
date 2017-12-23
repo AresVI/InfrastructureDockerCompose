@@ -21,7 +21,7 @@ services:
         ports:
             - 7000:8080
     aresvi-web:
-        image: 	caballerojavier13/aresvi_promotional_web:1.0.0
+        image: caballerojavier13/aresvi_promotional_web:1.0.0
         ports:
             - 80:80
     aresvi-bonita:
