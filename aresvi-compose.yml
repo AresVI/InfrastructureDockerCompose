@@ -1,7 +1,7 @@
 version: '2'
 services:
     aresvi-app:
-        image: caballerojavier13/admin_aresvi:3.2.0
+        image: caballerojavier13/admin_aresvi:latest
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_DATASOURCE_URL=jdbc:mysql://aresvi-mysql:3306/aresvi?useUnicode=true&characterEncoding=utf8&useSSL=false
@@ -20,8 +20,16 @@ services:
         image: caballerojavier13/drools_web_service:2.0.0
         ports:
             - 7000:8080
+    aresvi-web:
+        image: 	caballerojavier13/aresvi_promotional_web:1.0.0
+        ports:
+            - 80:80
     aresvi-bonita:
         image: bonita:latest
         ports:
             - 35407:8080
+    aresvi-portainer:
+        image: portainer/portainer:latest
+        ports:
+            - 9000:9000
 
