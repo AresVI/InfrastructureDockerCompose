@@ -30,6 +30,8 @@ services:
             - 35407:8080
     aresvi-portainer:
         image: portainer/portainer:latest
+        volumens:
+            - /var/run/docker.sock:/var/run/docker.sock
         ports:
             - 9000:9000
 
