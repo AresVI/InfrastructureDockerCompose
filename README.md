@@ -20,7 +20,7 @@ Esta plataforma está compuesta por un ecosistema muy heterogeneo de subsistemas
  
  Puedes ver la lista de [colaboradores](https://github.com/orgs/LabAuSegTIC/outside-collaborators) 
  
- ## License
+ ## Licencia
  
  La licencia de este proyecto es  GPL-3.0. Para más infomación puede leer el siguiente archivo  [LICENSE.md](https://github.com/LabAuSegTIC/InfrastructureDockerCompose/blob/master/LICENSE).
  
