@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+![](https://raw.githubusercontent.com/LabAuSegTIC/PromotionalWebHtml/master/images/Ares_logoColor.png)
 
-You can use the [editor on GitHub](https://github.com/LabAuSegTIC/InfrastructureDockerCompose/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## ¿Cómo desplegar AresVI?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+AresVI es un sistema de auditoría de la trazabilidad de los procesos de producción de vino. 
+Esta plataforma está compuesta por un ecosistema muy heterogeneo de subsistemas, tales como:
+ - Aplicación Java
+ - Base de datos MySQL
+ - Sistema de inferencia en Drools
+ - Sistema BPMN2 con Bonita BPM
+ - Cache con Redis
 
-### Markdown
+## Tipos de Instalaciones
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LabAuSegTIC/InfrastructureDockerCompose/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ - [Instalación en un sólo servidor](/docs/one_server.md)
+ 
+ ## Autores
+ 
+ * **Javier Caballero** - *Technical Director* - [Web Site](http://javiercaballero.info)
+ 
+ Puedes ver la lista de [colaboradores](https://github.com/orgs/LabAuSegTIC/outside-collaborators) 
+ 
+ ## License
+ 
+ La licencia de este proyecto es  GPL-3.0. Para más infomación puede leer el siguiente archivo  [LICENSE.md](https://github.com/LabAuSegTIC/InfrastructureDockerCompose/blob/master/LICENSE).
+ 
+ ## Agradecimiento
+ 
+ * Universidad Tecnológica Nacional - Facultad Regional Mendoza
+ * Universidad del Aconcagua
+ * Laboratorio de Auditoría y Seguridad en TIC
