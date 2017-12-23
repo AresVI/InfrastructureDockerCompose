@@ -24,9 +24,10 @@ Dado que sólo se hará uso de un sólo servidor, los requisitos mínimos podrá
 
 #### Requisitos de Software
 
-- `Docker: ~> v17.06 `
+- `docker: ~> v17.06 `
+- `docker-compose: latest`
 - `mysql-client: ~> 5.4`
-- `git`
+- `git: latest`
 
 > Nota: La infraestructura soporta la comunity edition para Docker.
 

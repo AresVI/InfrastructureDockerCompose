@@ -21,7 +21,7 @@ services:
         ports:
             - 7000:8080
     aresvi-bonita:
-        imagtes: bonita:latest
+        image: bonita:latest
         ports:
             - 35407:8080
 
