@@ -1,2 +1,0 @@
-# AresVI - Docker - Multi Servidor
-
