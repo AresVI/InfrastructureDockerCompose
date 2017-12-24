@@ -2,6 +2,7 @@ version: '2'
 services:
     aresvi-app:
         image: aresvi/backend_java:latest
+        container_name: backend_java
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_DATASOURCE_URL=jdbc:mysql://aresvi-mysql:3306/aresvi?useUnicode=true&characterEncoding=utf8&useSSL=false
@@ -10,6 +11,7 @@ services:
             - 8080:8080
     aresvi-mysql:
         image: mysql:5.7.19
+        container_name: mysql
         volumes:
             - ~/volumes/jhipster/AresVI/mysql/:/var/lib/mysql/
         environment:
@@ -22,24 +24,29 @@ services:
         command: mysqld --lower_case_table_names=1 --skip-ssl --character_set_server=utf8 --explicit_defaults_for_timestamp
     aresvi-redis:
         image: redis:latest
+        container_name: redis
         ports:
             - 6379:6379
     aresvi-drools:
         image: aresvi/drools:latest
+        container_name: drools
         ports:
             - 7000:8080
     aresvi-web:
         image: aresvi/promotional_web:latest
+        container_name: web
         ports:
             - 80:80
     aresvi-bonita:
         image: aresvi/bonita_bpm:latest
+        container_name: bonita
         volumes:
             - /opt/bonita:/opt/bonita
         ports:
             - 35407:8080
     aresvi-portainer:
         image: portainer/portainer:latest
+        container_name: portainer
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock
         ports:
